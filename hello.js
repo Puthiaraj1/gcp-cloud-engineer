@@ -3,7 +3,7 @@ const http = require('http');
 const hostname = '127.0.0.1';
 const port = 8080;
 
-const message = 'Hello Google Cloud Platform !';
+const message = 'Hello Welcome to Google Cloud Platform !';
 const fullMessage = `${message}\n`;
 
 const server = http.createServer((request, response) => {
